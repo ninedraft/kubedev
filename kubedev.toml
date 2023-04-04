@@ -1,6 +1,4 @@
 
 [[port]]
 service = "EXAMPLE SERVICE"
-[[port.mapping]]
-local = 8091
-remote = 80
+mappings = ["8091"]
